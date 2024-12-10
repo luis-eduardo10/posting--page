@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Delius+Swash+Caps&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+form {
+    border-width: 7px;
+    border-style: solid;
+    padding: 9px;
+    background-color: rgb(233, 150, 122);
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+header p {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Agu Display", serif;
+    font-size: 52px;
+    background-color: rgb(205, 92, 92);
+    padding: 40px;
+}
+
+[type="submit"] {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 7px;
+    font-family: "Delius Swash Caps", cursive;
+    background-color: blueviolet;
+    color: white;
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 7px;
+}
+
+div {
+    background-color: rgb(255, 215, 51);
+    text-align: center;
+    font-family: "Delius Swash Caps", cursive;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+[type="text"] {
+    font-family: "Delius Swash Caps", cursive;
+    padding: 10px;
+}
